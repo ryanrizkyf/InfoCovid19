@@ -23,7 +23,7 @@ class AboutPage extends StatelessWidget {
                 height: 5,
               ),
               Text(
-                'About Me',
+                'About',
                 style: titleTextFont,
               ),
               SizedBox(
