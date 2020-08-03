@@ -71,7 +71,9 @@ class _VideoPageState extends State<VideoPage> {
                 }
               },
             ),
-            Divider(),
+            SizedBox(
+              height: 5,
+            ),
             Text(
               'Sumber : Kementerian Kesehatan Republik Indonesia',
               style: subtitleTextFont.copyWith(
