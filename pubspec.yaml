@@ -52,6 +52,7 @@ flutter:
     - assets/images/struktur_virus.jpeg
     - assets/images/melindungi_sesama.jpg
     - assets/images/covid_19.png
+    - assets/video/
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

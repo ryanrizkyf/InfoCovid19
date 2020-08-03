@@ -30,7 +30,7 @@ class AboutPage extends StatelessWidget {
                 height: 5,
               ),
               Divider(),
-               Card(
+              Card(
                 elevation: 8,
                 child: ListTile(
                   title: Text(
@@ -113,7 +113,7 @@ class AboutPage extends StatelessWidget {
                 ),
               ),
               Divider(),
-               Card(
+              Card(
                 elevation: 8,
                 child: ListTile(
                   title: Text(
@@ -121,6 +121,18 @@ class AboutPage extends StatelessWidget {
                   ),
                   subtitle: Text(
                     'Yong Loo Lin School of Medicine National University of Singapore',
+                  ),
+                ),
+              ),
+              Divider(),
+              Card(
+                elevation: 8,
+                child: ListTile(
+                  title: Text(
+                    'Lindungi Diri & Sesama dari COVID-19',
+                  ),
+                  subtitle: Text(
+                    'Kementerian Kesehatan Republik Indonesia\n\nhttps://www.youtube.com/watch?v=0yxWfBgBNVk',
                   ),
                 ),
               ),

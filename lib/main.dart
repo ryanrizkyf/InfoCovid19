@@ -6,6 +6,7 @@ import 'package:covid_19_flutter/theme.dart';
 import 'package:covid_19_flutter/pages/home_page.dart';
 import 'package:covid_19_flutter/pages/about_page.dart';
 import 'package:covid_19_flutter/pages/covid_page.dart';
+import 'package:covid_19_flutter/pages/video_page.dart';
 import 'package:covid_19_flutter/pages/global_page.dart';
 import 'package:covid_19_flutter/pages/advice_page.dart';
 import 'package:covid_19_flutter/providers/covid_provider.dart';
@@ -45,6 +46,11 @@ class MyApp extends StatelessWidget {
         ),
         Tab(
           icon: Icon(
+            MdiIcons.playBox,
+          ),
+        ),
+        Tab(
+          icon: Icon(
             MdiIcons.shield,
           ),
         ),
@@ -71,7 +77,7 @@ class MyApp extends StatelessWidget {
           primaryColor: mainColor,
         ),
         home: DefaultTabController(
-          length: 5,
+          length: 6,
           child: Scaffold(
             appBar: AppBar(
               title: Text('Info COVID-19'),
@@ -82,6 +88,7 @@ class MyApp extends StatelessWidget {
                 HomePage(),
                 GlobalPage(),
                 CovidPage(),
+                VideoPage(),
                 AdvicePage(),
                 AboutPage(),
               ],
