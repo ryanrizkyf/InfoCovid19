@@ -100,6 +100,7 @@ class _VideoPageState extends State<VideoPage> {
         child: Icon(
           _controller.value.isPlaying ? Icons.pause : Icons.play_arrow,
         ),
+        backgroundColor: mainColor,
       ),
     );
   }
