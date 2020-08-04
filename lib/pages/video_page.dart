@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
+import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 import 'package:covid_19_flutter/theme.dart';
 
@@ -98,7 +99,7 @@ class _VideoPageState extends State<VideoPage> {
           );
         },
         child: Icon(
-          _controller.value.isPlaying ? Icons.pause : Icons.play_arrow,
+          _controller.value.isPlaying ? MdiIcons.pause : MdiIcons.play,
         ),
         backgroundColor: mainColor,
       ),
